@@ -9,6 +9,8 @@ Trought this modification is possible to reproduce the real radio traffic on LoR
 General schemme:
 ===============
 
+
+'''
  +----------+
  | SPI LoRa |
  |  shield  |
@@ -32,15 +34,18 @@ General schemme:
 | Application |
 +-------------+
 
+'''
+
 
 Structure of the packet:
 
+'''
 struct pacoteUDP {
     uint8_t header[6]; // header,dest,source,pktnum,retry 
     uint8_t size;
     uint8_t payload[251]; 
 } bufferALE;
-
+'''
 
 
 
