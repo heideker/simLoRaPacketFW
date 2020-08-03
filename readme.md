@@ -10,7 +10,7 @@ General schemme:
 ===============
 
 
-``
+''''
  +----------+
  | SPI LoRa |
  |  shield  |
@@ -34,7 +34,7 @@ General schemme:
 | Application |
 +-------------+
 
-``
+''''
 
 
 Structure of the packet:
